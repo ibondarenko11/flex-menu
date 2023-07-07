@@ -50,6 +50,26 @@ table {
 }
 
 /*----------------------------------------------------*/
+@font-face {
+    font-family: Agdasima;
+    src: url('../../fonts/Agdasima-Regular.ttf');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Belanosima;
+    src: url('../../fonts/Belanosima-Regular.ttf');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: Lora;
+    src: url('../../fonts/Lora-Regular.ttf');
+    font-weight: 400;
+    font-display: swap;
+}
 
 .container {
     width: 1200px;
@@ -71,6 +91,8 @@ table {
 }
 
 .header-menu li {
+    font-family: Agdasima;
+    font-size: 30px;
     outline: 2px solid rgb(4, 4, 49);
     color: rgb(4, 4, 49);
     text-align: center;
@@ -96,6 +118,7 @@ table {
 }
 
 .second-menu li {
+    font-family: Belanosima;
     text-align: center;
     background: rgb(153, 109, 179);
     margin-top: 10px;
@@ -116,6 +139,7 @@ table {
 }
 
 .third-menu li {
+    font-family: Lora;
     margin-top: 0px;
 }
 
