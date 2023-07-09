@@ -79,6 +79,12 @@ table {
 .icon {
     height: 20px;
     width: 20px;
+    fill: none;
+}
+
+.l-arrow-icon {
+    height: 20px;
+    width: 20px;
 }
 
 .header {
