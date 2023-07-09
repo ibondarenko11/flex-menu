@@ -76,6 +76,11 @@ table {
     margin: 0 auto;
 }
 
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
 .header {
     background: rgb(153, 109, 179);
     padding: 20px 0;
